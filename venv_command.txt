@@ -1,0 +1,21 @@
+venv\Scripts\Activate.ps1
+
+cd "F:\path\to\my-new-project"
+python -m venv venv
+venv\Scripts\Activate.ps1
+pip install <whatever you need>
+pip freeze > requirements.txt
+
+1. Create the Environment
+Run the following command in your project directory to create a new virtual environment (named .venv by convention):
+
+python3 -m venv venv
+
+2. Activate the Environment
+Activation commands differ by operating system:
+
+Linux/macOS: source venv/bin/activate
+Windows (Command Prompt): venv\Scripts\activate
+Windows (PowerShell): venv\Scripts\Activate.ps1
+Once activated, your terminal prompt will typically prefix with the environment name (e.g., (venv)). 
+To exit the environment, simply type deactivate.
