@@ -1,21 +1,23 @@
-def chunk_text(text, chunk_size=800, overlap=80):
+import re
+
+def chunk_text(text, chunk_size=500, overlap_sentences=1):
+    # Split into sentences (simple version — splits on . ! ? followed by space/newline)
+    sentences = re.split(r'(?<=[.!?])\s+', text)
+    
     chunks = []
-    start = 0
-    while start < len(text):
-        end = start + chunk_size
-        chunks.append(text[start:end])
-        start += chunk_size - overlap
+    current_chunk = []
+    current_length = 0
+    
+    for sentence in sentences:
+        if current_length + len(sentence) > chunk_size and current_chunk:
+            chunks.append(" ".join(current_chunk))
+            # keep last N sentences for overlap
+            current_chunk = current_chunk[-overlap_sentences:]
+            current_length = sum(len(s) for s in current_chunk)
+        current_chunk.append(sentence)
+        current_length += len(sentence)
+    
+    if current_chunk:
+        chunks.append(" ".join(current_chunk))
+    
     return chunks
-
-with open("sample_notes.txt", "r", encoding="utf-8") as f:
-    text = f.read()
-
-chunks = chunk_text(text)
-
-print(f"Document length: {len(text)} characters")
-print(f"Number of chunks: {len(chunks)}")
-print()
-for i, c in enumerate(chunks):
-    print(f"--- Chunk {i} ---")
-    print(c)
-    print()
