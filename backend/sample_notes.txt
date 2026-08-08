@@ -1,0 +1,323 @@
+Introduction
+
+Paquito is an aggressive fighter in mobile game Mobile Legends Bang Bnag with a versatile kit to help him win against the odds. His punches might be straightforward, but his approach is what makes him dangerous! Paquito can sustain really well gaining the advantage in a lot of 1v1s with his CC and shield, his cooldowns are pretty low added to the fact that his enhanced skills have no cooldown making him capable of sending a barrage of attacks to overwhelm the opponent. Just like real-life boxing, there is a rhythm to how you should move, and a Master Paquito will never stop moving. Once you – the player – read through this guide, you too can learn to become a boxing champion.
+
+Feel free to skip to the sections that matter to you**, this is an open book guide :))**
+
+Pros
+
+Fast Casting: Skills can be pressed in fast succession to surprise the opponent.
+
+1vMany Potential: Beginners can learn to win almost any 1v1s, while experienced players (in the right conditions) can win against 1v3s.
+
+Great Sustain: All skills are AOE making him great in teamfights and in laning.
+
+Slightly Durable: Fighter stats and shields can stack to save you from considerable amounts of damage.
+
+Cons
+
+Close Ranged: Vulnerable in fights that include a mage or marksman.
+
+Sustain Dependent: Relies heavily on sustain in prolonged fights, 2 hard CCs are enough to take you down.
+
+Skill Level: Not knowing your combos and missing your skills can leave you like a sitting duck while your skills are on CD and giving an opening for the opponent to counterattack.
+
+Matchups
+
+(Granted you go XP Lane) Paquito's fast burst capabilities can let him win against most fighters. I'll give a brief marker to signify his chances against the hero in a 1v1 from early, mid to late stages of the game respectively like this: A | E | D (early goes first, late goes last). A stands for ADVANTAGE meaning you're likely to win, E stands for EVEN meaning the better player will win, and D stands for DISADVANTAGE meaning you're likely to lose. These markers are generalized for Paquito, end results are defined by the player and enemy's overall skill.
+
+IF YOUR ENEMY LANER GETS FED, YOU'LL BE AT A GENERAL DISADVANTAGE.
+
+[NEW] Aamon (E | A | A): Aamon rarely shows up in XP lane, but you'll meet him in jungle skirmishes and rotations. His stealth-into-burst combo hits hardest when you're isolated, so stay near minions/turret when he's likely to be roaming. He has no hard CC, so if you can eat his burst with your 1st's shield you'll usually out-sustain him once his combo is spent.
+
+Aldous (A | E | D): Never reach late-game with an enemy Aldous, bully him as much as you can when he's trying to farm minions. His 2nd skill will reduce most of your combo's damage, avoid him while it's active. You can dodge his 1st with your ULT or 2nd if you're fast enough.
+
+Alice (A | A | E): Alice is still a mage meaning she isn't very durable early game. Bully her whenever you can when she tries to farm minions for stacks. Late game her large health pool and constant damage will shred through your shield and sustain making it difficult to kill her.
+
+Alpha (A | E | D): You can dodge his skills with your ULT and 2nd while being able to do continuous burst damage. Once Alpha is full build they're really durable making your sustain weak against him. Don't let him activate his passive on you or else you'll suffer from his true damage/slow.
+
+Alucard (A | E | E): Alucard heavily relies on his sustain or burst but since his weakness is CC (or shields) then you can always win against him as long as you have your skills off cooldown.
+
+Argus (E | A | A): Argus' burst damage and ULT are problematic but is weak to CC. Poke/Burst him down until he uses his ULT, use your ULT to push him back then chase him down with your 2nd after his ULTs finished.
+
+[NEW] Arlott (E | E | D): Arlott's air-combo skillset lets him juggle you and cancel your follow-up if he lands his 2nd first, and his passive punishes prolonged brawling. Poke him before he can start his combo chain and try to land your ULT stun before he gets his hooks (literally) into you — once he's airborne-comboing you, it's very hard to escape.
+
+[NEW] Aulus (E | E | D): Aulus resets his dash on takedowns and stacks true damage the longer a fight drags on, so treat him like Yu Zhong — don't let the fight go long. He has no traditional CC, so your shield from your 1st blunts a lot of his burst. Kill him fast or disengage; standing and trading with a fed Aulus late-game is a losing bet.
+
+Badang (A | E | E): Badang has consecutive CC skills as well as a ranged attack that can cancel your ULT animation (his passive can cancel your ULT when timed right). They don't often build sustain and focus on their DHS to meltdown groups of enemies instead of sustaining in prolonged fights. Shield/sustain through Badang's combos and use his cooldowns against him.
+
+Balmond (A | A | E): Balmond's durability paired with his sustain will shred through your shield and health bar late game. Balmond players will often be moving, making it easy to miss your skills if you're too hasty. Always have your Enhanced ULT ready to cancel his 2nd giving you a short window beating him especially since his basic skills have an extremely low cooldown.
+
+Bane (A | E | E): Magic or Physical Bane players will often try to keep their distance to poke you down. Their weakness is CC so it's better to jump them instead of approaching them directly since the obvious action for them would be to back. Bane's ULT can cancel your ULT animation, be wary of it in teamfights.
+
+Barats (E | D | D): Barats will continuously poke you with his 1st while gaining stacks to make him more durable whilst making your sustain weaker. Barat's also has an ULT that will disable your combos whilst healing, making the results of prolonged fights in Barats' favor.
+
+[NEW] Benedetta (E | E | D): Benedetta can dash into a nearby bush or ally to dodge your combo entirely, and her own dash-burst kills squishies fast — you're tankier than her usual target so you'll survive the initial burst if shielded. Punish her when her dashes are down; if she baits you into overextending near her escape routes you'll lose the trade.
+
+Chou (A | E | E): Chou players can dodge as well as immune your ULT making it easy for you to miss. Chou loses in a prolonged fight against Paquito so poke him down before going all in. Chou players will often utilize their ULT to kick you in turret or when they have items to do a full combo so be wary of your condition and position.
+
+[NEW] Cici (A | E | E): Cici's windmill form gives her a shield and sustain of her own, similar in spirit to your kit, so this matchup comes down to who lands their combo first and manages cooldowns better. Poke her before she can stack her spinning form's damage reduction and don't let her regen back up for free.
+
+Dyrroth (A | E | E): Yet another champion weak to CC. His 2nd will shred your defense so be wary of your condition making you severely vulnerable. Dyrroth's ULT may be a threat but it is easily cancelled by your ULT so punish them as often as possible for trying to do so.
+
+[NEW] Edith (E | E | E): Mech-form Edith's shield and knockback stall your combo, and un-mounted she can hook you into a bad position. This is a durability check more than a burst one — if she gets her shield up before you engage, disengage and reposition rather than dumping your combo into it for nothing.
+
+Esmeralda (A | E | D): Esmeraldas are weak to CC so use your poke, burst, and CC to bully them in lane. Never use your 1st against her since she'll ignore and steal your shields. Late game she'll easily be able to negate your burst with her constant shields so don't let the game drag on.
+
+[NEW] Fredrinn (E | E | D): Fredrinn's stance-switching gives him a shield that eats a chunk of your burst, and his sustain gets nastier with more items. Poke him down before his stacks build and try to burst through his shielded stance rather than into it.
+
+Freya (A | E | E): Constant shield and fast attacks paired with her 2 CC skills makes it impossible to win against her in almost any trade. Freya's ULT also increases the range of her basic attacks so retreat is also unlikely. Hug the turret and poke/stun her whenever you can.
+
+Gatotkaca (A | E | D): His burst can be minimized with a well-timed shield from your 1st. Despite his low mobility, his durability and sustain makes him difficult and dangerous to kill.
+
+Guinivere (A | A | E): Guiniveres will always initiate with their 2nd skill, time your ULT correctly and you'll always cancel her knockup making her ULT less effective especially in a teamfight. Guiniveres will never engage with you in lane and will poke you down with their 1st before going all in. Bait her 2nd to catch her in your combo but beware of the consequences when you fail to cancel it.
+
+Hilda (E | A | A): Hilda's constant shield and healing paired with her durability make most of your trades during laning worthless. Use your ULT to push her out of the bush and overwhelm her regen with your CC and burst. Beware of Hilda when you are below half health.
+
+Jawhead (A | E | D): Jawheads will always try to throw you in their turret or hold you in place with their 2nd and ULT so be wary of your position. Jawhead's passive also makes it dangerous to exchange blows so it's better to jump them. Don't engage in a prolonged fight and poke him down before going all in.
+
+Kaja (A | E | E): Kajas will try to pull you in their turret so be wary of your position. His laning mainly involves poking you down before going all-in so you should close the gap whenever possible to punish or trade with your 1st and ULT. Poke him down before stunning him and going all in. Beware of Kajas when you are below half health.
+
+[NEW] Kalea (A | E | E): Kalea's dash-based kit and serpent form give her extra mobility to dodge your combo, but she lacks hard CC early. Bully her while her form is on cooldown; once she's fully stacked and durable, treat her more like a tank matchup and rely on your shield to outlast her pokes.
+
+Khaleed (E | A | A): You can dodge both Khaleed's ULT and 1st with your 2nd, preventing him from spinning any further will give you a window of opportunity for a counterattack. You can cancel his 2nd using your ULT.
+
+[NEW] Khufra (E | D | D): Khufra is usually a roamer, not a laner, but his stun-into-slam combo shuts your mobility skills down completely if you get caught by his 1st — you can't blink out of the bubble. Never engage him without your 1st's shield ready, and if he's hunting you in rotations, group up rather than 1v1 him; his CC chain alone can delete your combo window.
+
+Lapu-Lapu (E | E | D): Your reduced damage against Lapu in ULT form will put you at a disadvantage especially when he uses his ULT. It is better to jump Lapus while they're in normal form or punish them while they're charging their 1st during ULT form. Lapu players will often poke you down with their 1st before using their ULT to go all in.
+
+Leomord (A | E | E): Leomords constantly move during their ULT form making it possible to miss. Punish Leomords for charging their 1st while in normal form or jump them while they aren't in ULT form. Leomord players will often poke you down with their 1st before using ULT to go all in.
+
+[NEW] Lukas (A | E | E): Lukas' rhythm-based dance combo is fast like yours, making this a mirror-ish matchup of who lands their burst window first. He has decent self-peel but no hard lockdown, so shield through his opener and burst him back once his combo string ends.
+
+Martis (A | E | E): Martis' 2nd can cancel your ULT animation when timed right. They will often poke you down with their 1st and will 2nd whenever you try to get close. Martis will often land more basic attacks than you because of his passive. Your chance to beat him is when his 2nd is on cooldown.
+
+Masha (A | A | E): Always have skills ready against her and you'll always have the advantage since her main damage comes from doing basic attacks.
+
+Minsitthar (A | E | E): Minsitthars have no mobility and sustain making him hard to miss and weak to CC. His only threat is his ULT. When caught in it, use your 1st to reduce any incoming damage and try to escape as soon as possible.
+
+[NEW] Nolan (E | A | A): Nolan is a jungle assassin, so you'll mostly meet him on rotations rather than in lane. His hook-grapple gives him a hard engage/disengage that can catch you out of position, but he folds fast to burst if you land your stun first. Watch your positioning near walls/edges where his hook has the most range.
+
+Paquito (E | E | E): Whoever strikes first, knows their combos better, and has more stacks on passive will have a higher chance of winning. Missing once could result in you dying.
+
+Phoveus (E | D | D): Phoveus' shield is capable of negating most of the damage you deal if you decide to poke him so it's better to jump him whenever his shields are down. Bait his ULT then avoid using your blinks (2nd & ULT) to prevent him from gaining more shields and reducing his cooldowns. Your chance to beat him is when his passive doesn't appear above your head after you dash, this means his ULT is on cooldown and he can only rely on his 1st.
+
+Roger (E | E | D): Less likely you'll ever meet him in XP lane since he's a Jungler/Gold Laner. His 1st in wolf form can make you miss your skills and it's just better to jump/attack him while he's in human form.
+
+Ruby (D | E | A): Rubys will constantly poke at a distance before going all in. Ruby's passive makes it possible to miss your skills easily. Her 2nd and ULT can cancel both your 2nd and ULT animation. It's less likely one would kill the other due to both having insane sustain but if a prolonged 1v1 occurs, Ruby loses.
+
+Saber (E | E | A): Sabers will poke you down with their 1st before going all in. His full combo can easily kill you when you're below half health. Saber's ULT can cancel your ULT animation.
+
+Silvanna (E | E | E): Silvanna's 1st can cancel your ULT animation. Your ULT can cancel Silvannas 2nd. You can dodge her 1st with your 2nd. Punish Silvannas who trap you in their ULT by cancelling their skills and stunning them.
+
+[NEW] Sora (E | E | D): Sora shares a similar identity to you — fast-casting, form-switching, burst-oriented — so this matchup rewards whoever manages cooldowns and stacks better. His tankier forms will out-sustain you late, so try to close it out early/mid before he's fully built.
+
+Sun (A | A | E): Focus building Bloodlust Axe as your first item. Do not get surrounded and focus on one Sun, instead, line up Sun and his clones to catch all three of them in your ULT, this will not only guarantee that you hit the actual Sun but will give you extra sustain. Mid to late game Suns will melt you the moment your skills go on CD so know your combos to prevent that.
+
+[NEW] Suyou (E | A | A): A jungle/roam assassin, not a typical laner, but his dash-based burst combo hits hard and fast. He has minimal hard CC, so your shield goes a long way — the danger is dying before you can react if he opens on you from stealth/bush.
+
+Thamuz (E | E | E): Thamuz's poke, sustain, and true damage passive becomes a threat early-mid game. Use your ULT to prevent him from picking up his scythes and sticking to you. Poke Thamuz down by using your 2nd and ULT and make distance to prevent him from healing through spell vamp and lifesteal.
+
+Terizla (A | A | E): Terizla's slow skills make it possible to negate the incoming damage with sustain. You can cancel Terizla's 2nd with your ULT. The pull and knock-up of his ULT can cancel your ULT animation. Either party will have difficulty killing the other because of their durability but in a prolonged fight, Terizla loses.
+
+Uranus (A | A | E): Uranus is still a tank meaning he will be hard to kill. His sustain and 1st skill make him dangerous in a prolonged fight but luckily, this level of threat only becomes relevant late game. Use your 1st to negate the damage from his 1st and 2nd while using your 2nd and ULT to overpower his sustain.
+
+X.Borg (A | A | E): You can easily break his armor or dodge his skills by using your ULT or 2nd. Close the gap whenever he tries to use his 1st against you by using your 2nd before stunning him with your ULT. The trick is to break his armor as much as possible to prevent him from using his ULT (since it is still a threat) and to keep him exposed.
+
+[NEW] Yena (E | E | D): Yena's flip-dash gives her a hard-to-hit escape and a strong dive tool onto backline targets, but in a straight lane trade she lacks sustain. Poke her early before she has kill-reset tempo; late-game, watch your backline positioning since a fed Yena will target them over you.
+
+[NEW] Yin (A | E | E): Yin's ULT lets him dodge a huge portion of physical damage briefly, which can eat one of your combo windows entirely, but his own damage relies on stacking hits. Bait the ULT out with a smaller poke, then commit your real combo once it's on cooldown.
+
+Yu Zhong (E | E | D): Don't let him stack his passive on you, the damage ignores your shields. Poke him down while avoiding his skills as much as possible before going all-in with your CC and burst. Use your 2nd to dodge his 1st and 2nd. You'll be at a disadvantage when he is in dragon form and you'll have a short window to stun him the moment he goes out of dragon form.
+
+Zhask (A | E | D): The threat of Zhask's spawn grows as the game progresses and will easily burst you down late game. Zhasks are still mages meaning a full combo can easily kill him. Zhask's ULT isn't a massive threat early game, force him out and kill him.
+
+Zilong (A | A | E): Zilongs are squishy and weak to CC making him easy to kill. The threat of his burst grows as the game gets longer. Use your ULT against him whenever he uses his 2nd to get close. Beware of Zilong when you are below half health.
+
+Skills
+
+BUFFS AND NERFS WILL CHANGE THE VALUES OF HIS SKILLS AND EFFECTS, THE USE AND TECHNIQUES OF A HEROES KIT IS WHAT MAKES THEM EFFECTIVE.
+
+Passive - Champ Stance: Each time Paquito uses his skills, it grants him 1 stack. At 3 stacks his next skill will be enhanced and will grant 60% movement speed as well as consume all stacks. His basic attack is 85% effective.
+
+Tips - Using skills before a fight can let Paquito prepare an Enhanced Skill. Enhanced skills have no cooldown. Because of Paquito's reduced damage from his basic attack, It's better to use Paquito as a skill-casting fighter with short bursts of damage using his combos.
+
+1st Skill - Heavy Left Punch [ Buff ]: Paquito punches in a small area in front of him, dealing normal amounts of physical damage. If an enemy is hit, Paquito gains a shield. When enhanced this skill will deal (~45%) increased damage while the shield he gets will increase by ~20%. Normal and enhanced shields can stack and they last for 2.5s.
+
+Tips - This skill is instant and great for playing defense especially for 1v1s or negating damage. Stacking two enhanced shields from your 1st won't work.
+
+2nd Skill - Jab [ Burst ] [ Blink ]: Paquito dashes in a specified direction then deals heavy amounts of physical damage to all enemies in an aoe area in front of him. When enhanced this skill will deal (~50%) increased damage. The dash will not do damage and will immediately stop when hitting an enemy hero or jungle monster.
+
+Tips - It's low CD, high scaling and ability to go through walls makes this Paquito's main damage and mobility skill. You can pass through the thick wall by the sidelane's 2nd turret if you position yourself directly parallel to the jungle monster. The range of the aoe is farther than you might think, use this advantage to poke enemies from a short distance.
+
+ULT - Knockout Strike [ Burst ] [ CC ]: Paquito dashes forward dealing normal amounts of physical damage as well knocking back enemies caught in the dash to the skill destination. He then does heavy amounts of physical damage whilst slowing down the enemies hit by 75% for 1 second and immediately afterward, dashes back. When enhanced this skill's heavy damage will deal (~50%) increased damage and will knock the enemy airborne.
+
+Tips - This skill's disabling effects makes it Paquito's main utility skill. This skill will not dash through walls and will instead slide along the terrain when aimed at an angle. Use this skill's displacement/knockup to cancel or interrupt certain skills used by enemy heroes (I.e Odette ULT, Franco ULT, Guinevere's 2nd, etc.)
+
+Skill Path: 2nd » ULT » 1st
+
+Combos
+
+The key to playing Paquito effectively is knowing, landing, and managing your combos, especially because he's the hero with one of the most combos in the game. Experienced Paquitos are able to make their own combos without leaving an opening after their attacks, letting them reposition or retreat. Knowing when and what combos to use for different situations will make a massive difference in a fight.
+
+USE PRACTICE TOOL TO TEST AND LEARN THESE COMBOS, TRY EVEN MAKING YOUR OWN!
+
+COMBO NAMES ARE MADE-UP - TEKK*N STYLE!
+
+Legend: (1)st Skill, (2)nd Skill, (3) ULT, (BA) Basic Attack, (») Next, (↑) Enhanced, (!) Situational / Difficult
+
+Basic Skills
+
+Block: 1
+
+Poke / Dodge: 2
+
+Push: 3
+
+1 Bar Combos
+
+Poke n' Run: 2 » 3 » 3↑
+
+Ambush: 3 » 2 » 3↑
+
+Connector: 2 » 1 » 2↑
+
+Double Dip: 2 » 1 » 3↑ » 3
+
+(!)Commitment: 3 » 2 » 2↑ » 1
+
+2 Bar Combos
+
+Gap Closer: 2 » 2↑ » Block and/or Push
+
+Repulse: 1 » 1↑ » Push and/or Dodge
+
+Pop-Up: 2 » 3↑
+
+(!)Deep Dive: 3 » 3↑ » 2 » 1
+
+3 Bar Combos
+
+(!)Full Defense: 1↑ » 3 » 2 » 1 » 1↑
+
+Hard Chase: 2↑ » 1 » 3 » 2 » 2↑
+
+Knockout CC: 3↑ » 3 » 2 » 1 » 3↑
+
+Builds, Emblems, and Spells
+
+Paquito has many Items open to his loadout to pair with his kit. These Items can include Physical and Defense items to strengthen his capabilities as a fighter but depending on your choice of items, he can also be played as an assassin or a tank.
+
+Recommended Physical Items:
+
+Bloodlust Axe (Core Item) - Sustain and CD
+
+War Axe (Optional Core) - Damage, Minor PEN, CD, and Movement Speed
+
+Blade of Despair (Snowball) - Stronger Damage, Shield, and Sustain
+
+Hunter Strike (Budget BoD) - Minor PEN, CD, and Speed Up
+
+Rose Gold (Situational) - Against Magic Lineups
+
+Recommended Defense Items:
+
+Bruteforce Breastplate (Core Item) - HP, Hybrid Defense and Speed Up
+
+Immortality (Revive) - HP and Armor
+
+Oracle (Situational) - CD, Magic Res, and Stronger Shields/Sustain
+
+Athena's Shield (Situational) - HP, Magic Res, and Anti-Magic Burst
+
+Radiant Armor (Situational) - HP, Magic Res, and Anti-Magic DPS
+
+Items like Antique Cuirass or Dominance Ice are also viable when going for a Tank/Support Build.
+
+Example Builds:
+
+Standard: Warrior Boots, War Axe, Bloodlust, BruteForce, Rose Gold, Immortality
+
+40% CD: Warrior Boots, Bloodlust, War Axe, Oracle, Hunter Strike, Immortality
+
+Magic Res: Tough Boots, Bloodlust, Rose Gold, Oracle, Athena's/Radiant, Immortality
+
+Spells
+
+Execute: Perfect for killing low HP heroes after doing your combo.
+
+Flicker: A viable option for increased mobility and easier set-ups with a tank build.
+
+Emblems
+
+Fighter (Sustain):
+
+1/3 Firmness (Armor) | 2/3 Shield (MagRes)
+
+3/3 Invasion (PEN)
+
+Talent - Festival of Blood (Spell Vamp)
+
+Assassin (Burst):
+
+3/3 Agility (MovementSpd)
+
+3/3 Bloodthirst (Spell Vamp)
+
+Talent - Killing Spree (Heal)
+
+Tank (Support/Roam):
+
+3/3 Vitality (Max HP)
+
+1/3 Fortress (Armor %) | 2/3 Purity (MagRes %)
+
+Talent - Concussive Blast (Damage)
+
+Playstyle
+
+Picking / Drafting
+
+With Paquito's quick and versatile combos giving him an unfair edge against most of his laners, he is undoubtedly a pick or ban hero between skilled players, but as tempting and fun as Paquito may be, when it comes to draft picking take a look at the enemy's lineup and think if picking Paquito will help you win lane or the whole game (in other words, are you picking him because you want to win against your lane matchup or because you could use him to your advantage against the enemy lineup). Picking him against lineups that mostly consist of ranged heroes would be risky since you may have the advantage early game but you will most certainly be at a disadvantage later on; hitting them with your skills will be a challenge and poke-burst skills will be your greatest problem even before initiating. Pick Paquito against lineups that consist of at least 2 or more frontline heroes (i.e Tanks, Fighters, Hybrids).
+
+Early Game
+
+Use your 2nd as much as possible to get to lane before your opponent, hiding in the bush will let you have the chance of poke-bursting them as well as having the first hit. Constantly poke them down or cancel their regen with your 2nd before making distance, the trick is to make the enemy hug turret or recall to lose XP. Punish them for overextending with your burst + execute combo and get a gold lead to snowball or win lane by pushing their turret (see Matchups for more info).
+
+Paquito's playstyle is to be aggressive but don't forget to recall when you're low as you will be ganked for overextending by the enemies that are rotating.
+
+Mid Game
+
+By this time you need to have at least two core items (see Builds for recommended items). Buying two attack items can serve Paquito as a glass cannon while buying one defense and attack item can significantly increase his hybrid capabilities as a fighter. During this stage of the game you need to clear your lane's enemy minion wave as soon as possible to be able to rotate and help gank at mid or jungle but never the opposite sidelane (unless necessary), join any teamfights that occur nearby and catch as many squishy heroes as you can with your combos. Make sure you don't accidentally help the enemy escape when you push them with your ULT - you're not only supposed to kill some enemies with your burst and CC, but you also need to be useful to your teammates by keeping the enemy down, not away. Rotate back to your turret as soon as possible to prevent the enemy laner from pushing and use every opportunity to push the enemy lane turret whenever you see your enemy laner pop up on a different lane.
+
+Be sure you don't only focus on your enemy laner since his teammates can also gank your lane.
+
+Late Game
+
+Coordinating with your teammates as well as knowing when to split push are the most important things to note during this stage of the game. Minimize your chances of death as much as possible since respawn timers become a huge factor to defending or pushing to win - avoid going solo and stick with your team. When a teamfight breaks out, find a way to appear beside or behind the enemy. Be the one to either take out the enemy DPS like an assassin or disrupt enemy skills like a tank to support your teammates and prevent them from being killed. Paquito during this phase of the game can both be a semi-tank and a bursty-fighter depending on how well you support and synergize with your team.
+
+Synergies and Counters
+
+I'LL GIVE A FEW EXAMPLES FOR YOU TO GET THE GENERAL IDEA
+
+Synergies
+
+As you can tell from Paquito's kit, he is a high sustain, AOE-burst fighter and does well in a lineup that can mutually complement his kit. Paquito's synergy lies within heroes that have setting skills that clump enemies together, burst skills that follow up with his CC (Any DPS), and buffing skills that can enhance his mobility or durability.
+
+Ideal: Tigreal, Khufra, Atlas, Angela, Rafaela, Ruby
+
+Great: Gatotkaca, Aurora, Vale, Estes, Diggie, Chou
+
+[NEW] Also worth noting from the current roster: Chip and Floryn bring the same team-wide sustain/shield philosophy as Rafaela/Angela, and Kalea's grouping tools synergize similarly to Atlas.
+
+Counters
+
+If it wasn't obvious by now, Paquito's disadvantage is mainly when he's not able to hit the enemy or when he misses his combos - in other words, range and precision. Heroes that can interrupt (CC), make him miss (Blink), or cancel the sustain from his combos (Anti-Heal or Burst) are the key to giving a Paquito player the regret of ever choosing him over other fighters. If you yourself are playing Paquito and see any one of these heroes coming after you in a 1v2 or team fight, your best action would be to retreat or reposition.
+
+Early: Khufra, Baxia, Franco, Gusion, Selena, Harley, Lunox
+
+Mid/Late: Akai, Hylos, Karrie, Kimmy, Eudora, Harith, Cecilion
+
+Predators: Barats, Esmeralda, Phoveus
+
+[NEW] Add to this list: Aulus (true damage ignores your shield sustain the same way Yu Zhong's does), Edith (her shield/knockback stalls your whole combo window), and Khufra deserves a double-mention as a Predator too — his stun locks out your mobility entirely if he catches you clean.
