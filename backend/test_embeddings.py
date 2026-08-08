@@ -1,5 +1,14 @@
-from sentence_transformers import SentenceTransformer
+"""Small script to test sentence embeddings and cosine similarity."""
+
 import numpy as np
+
+try:
+    from sentence_transformers import SentenceTransformer  # type: ignore[import]
+except ImportError as exc:
+    raise ImportError(
+        "sentence-transformers is required to run this script. "
+        "Install it with: pip install sentence-transformers"
+    ) from exc
 
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
