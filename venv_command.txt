@@ -3,6 +3,7 @@ venv\Scripts\Activate.ps1
 cd "F:\path\to\my-new-project"
 python -m venv venv
 venv\Scripts\Activate.ps1
+pip install -r requirements.txt 
 pip install <whatever you need>
 pip freeze > requirements.txt
 
