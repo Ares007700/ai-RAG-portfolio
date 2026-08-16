@@ -1,10 +1,7 @@
 import re
 from pathlib import Path
-
-try:
-    import chromadb  # type: ignore[import]
-except ModuleNotFoundError as exc:
-    raise ImportError("chromadb package not found. Install it with 'pip install chromadb'") from exc
+import chromadb
+from chromadb.utils import embedding_functions
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 SAMPLE_FILE = SCRIPT_DIR / "sample_notes.txt"
@@ -37,7 +34,15 @@ print(f"Chunking into {len(chunks)} pieces...")
 
 DB_DIR.mkdir(parents=True, exist_ok=True)
 client = chromadb.PersistentClient(path=str(DB_DIR))
-collection = client.get_or_create_collection(name="paquito_guide")
+
+sentence_transformer_ef = embedding_functions.SentenceTransformerEmbeddingFunction(
+    model_name="all-mpnet-base-v2"
+)
+
+collection = client.get_or_create_collection(
+    name="paquito_guide_mpnet",
+    embedding_function=sentence_transformer_ef
+)
 
 collection.add(
     documents=chunks,
@@ -46,7 +51,6 @@ collection.add(
 
 print("Total documents in collection:", collection.count())
 
-# Now actually test retrieval with a real question about the content
 query = "How should I play Paquito in the late game?"
 results = collection.query(query_texts=[query], n_results=6)
 
