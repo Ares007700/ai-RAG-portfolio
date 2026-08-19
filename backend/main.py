@@ -31,6 +31,10 @@ load_dotenv()  # ← this line actually reads .env into memory
 
 from fastapi.responses import StreamingResponse
 
+import chromadb
+from chromadb.utils import embedding_functions
+from pathlib import Path
+
 
 Base.metadata.create_all(bind=engine)  # creates the table if it doesn't exist
 
@@ -205,6 +209,18 @@ def read_me(current_user: models.User = Depends(get_current_user)):   #it will u
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 OPENROUTER_URL = os.getenv("OPENROUTER_URL")
 
+DB_DIR = Path(__file__).resolve().parent / "chroma_db"
+
+sentence_transformer_ef = embedding_functions.SentenceTransformerEmbeddingFunction(
+    model_name="all-mpnet-base-v2"
+)
+
+rag_client = chromadb.PersistentClient(path=str(DB_DIR))
+rag_collection = rag_client.get_or_create_collection(
+    name="paquito_guide_headers",  #must match the collection name used in the test_ingest_header.py file
+    embedding_function=sentence_transformer_ef
+)
+
 client = OpenAI(    #it will create an OpenAI client instance that will be used to send requests to the OpenRouter API. The client will use the OPENROUTER_API_KEY environment variable to authenticate the requests, and it will use the base_url parameter to specify the base URL of the OpenRouter API.
     api_key=OPENROUTER_API_KEY,
     base_url=OPENROUTER_URL,
@@ -250,6 +266,21 @@ def chat(
     ).order_by(models.Message.id).all()
 
     ai_messages = [{"role": m.role, "content": m.content} for m in history]
+
+     # 3.5. NEW — retrieve relevant chunks for the user's latest question
+    retrieved = rag_collection.query(
+        query_texts=[payload.message],
+        n_results=3
+    )
+    context_chunks = retrieved["documents"][0]
+    context_text = "\n\n".join(context_chunks)
+
+    system_message = {
+        "role": "system",
+        "content": f"""You are a helpful assistant. Use the following reference material to answer the user's question if it's relevant. If the reference material doesn't contain the answer, say so and answer from your own knowledge instead.\n\nReference material:\n{context_text}"""
+    }
+    ai_messages = [system_message] + ai_messages
+    # END NEW
 
     # 4. This function does the actual streaming, piece by piece
     def generate():

@@ -82,7 +82,7 @@ sentence_transformer_ef = embedding_functions.SentenceTransformerEmbeddingFuncti
 )
 
 collection = client.get_or_create_collection(
-    name="paquito_guide_headers",
+    name="paquito_guide_headers",  #must match the collection name used in the main.py file
     embedding_function=sentence_transformer_ef
 )
 
