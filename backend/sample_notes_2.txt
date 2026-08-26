@@ -1,0 +1,87 @@
+**Lesley** is a **Marksman/Assassin** hero in *Mobile Legends: Bang Bang*, primarily played in the **Gold Lane**. She specializes in **burst damage** and **true damage** execution, relying on her passive to empower basic attacks after using skills, rather than sustained DPS.
+
+### Core Gameplay & Strategy
+*   **Playstyle**: Lesley acts as a sniper who wins fights by landing two high-damage shots before enemies can react. She relies on **Master of Camouflage** (Skill 1) to gain movement speed and attack damage, followed by a basic attack and **Tactical Grenade** (Skill 2) to reposition or disengage.
+*   **Key Mechanics**: Her passive increases critical chance. When combined with her skills, her attacks deal **True Damage**, ignoring enemy physical defense. This makes her exceptionally strong against tanky heroes like **Marcel** and **Gatotkaca**.
+*   **Teamfight Role**: Positioning is critical. Lesley should stay at max range, using off-angle positions to avoid being locked down by assassins. Her ultimate, **Ultimate Snipe**, allows for long-range execution of low-health targets.
+
+### Best Build (2026 Meta)
+The recommended core build focuses on critical damage and survivability:
+1.  **Berserker’s Fury**: Core item for critical chance and damage.
+2.  **Endless Battle**: Provides true damage synergy and lifesteal.
+3.  **Blade of Despair**: Significantly boosts physical attack against low-health targets.
+4.  **Malefic Gun** or **Sea Halberd**: For penetration and anti-heal.
+5.  **Wind of Nature** or **Immortality**: Situational defensive items against dive-heavy teams.
+
+### Counters & Synergies
+*   **Strong Against**: **Marcel**, **Claude**, **Belerick**, and **Gatotkaca** due to her true damage output.
+*   **Weak Against**: **Sun**, **Estes**, **Gloo**, and assassins like **Lancelot** or **Ling** who can bypass her camouflage and burst her down quickly.
+*   **Best Partners**: **Harith**, **Popol and Kupa**, and **Roger** provide the mobility and crowd control needed to create safe angles for Lesley to fire.
+
+### Emblem & Battle Spell
+*   **Emblem**: **Custom Marksman Emblem** (Fatal, Weapon Master, Quantum Charge talents) or **Custom Assassin Emblem** for higher burst and mobility.
+*   **Battle Spell**: **Flicker** is essential for repositioning during snipes or escaping ganks. **Purify** is a situational alternative against heavy crowd control.
+
+## Lesley: Best Matchups & Marksman Counters
+
+### Why Lesley Shines Against Specific Hero Types
+
+**Tanks & Sustain Heroes** — This is Lesley's bread and butter. Her passive converts basic attacks into **True Damage**, which completely ignores physical defense. Heroes who stack armor items become irrelevant.
+
+| Hero | Role | WR Delta | Why Lesley Wins |
+|------|------|----------|----------------|
+| Marcel | Support | +4.1 pp | True damage bypasses his sustain and healing entirely |
+| Belerick | Tank | Strong | His thorns/armor don't matter vs true damage; Lesley out-DPSes him |
+| Carmilla | Tank Support | Strong | Same logic — Lesley outscales her in late game |
+| Atlas | Tank | Strong | His shield absorbs physical damage, not true damage |
+
+**Squishy Mages/Assassins** — Lesley's burst (S1 → AA → S2) deletes them before they can reposition. Yve, Pharsa, and Lunox all struggle if Lesley lands her first combo.
+
+**Slow, Predictable MMs** — Heroes like Claude (+2.3 pp) and Bruno (+2.2 pp) have low mobility and no escape tools. Lesley's camouflage + repositioning lets her pick them off at her own range.
+
+---
+
+### Lesley vs. Other Marksmen (Detailed)
+
+Lesley's lane advantage comes from **range control + burst**. She wins when she can force the enemy MM into a short-range trade where her true damage combo outbursts them.
+
+#### MMs Lesley Counters Well
+
+| MM | Why Lesley Wins |
+|----|----------------|
+| Claude | No mobility, no CC — Lesley's S1 invisibility lets her close, burst, and vanish before Claude can respond |
+| Bruno | His burst is strong but short-range; Lesley kites with S2 and outlasts his cooldowns |
+| Granger | Lesley's true damage ignores his shield; once his S1 is down, Lesley's range advantage is overwhelming |
+| Lesley vs. Lesley | Pure skill matchup — whoever lands the first combo wins; the one with better S1 timing takes the lane |
+
+#
+
+### MMs That Counter Lesley
+
+| MM | Why They Beat Lesley |
+|----|---------------------|
+| Popol and Kupa | +2.1 pp WR edge; their burst and AoE damage delete Lesley before she can reposition with S2 |
+| Clint | His S1 range outpaces Lesley's; he can poke from outside her camouflage range and never let her close |
+| Melissa | Her S1 silence + S2 slow locks Lesley in place, canceling her repositioning; her burst outpaces Lesley's true damage combo |
+| Brody | His S2 shield + S1 range give him a natural range advantage; he can absorb Lesley's combo and counter-attack |
+| Beatrix | Her S1 slow + S2 burst punish Lesley the moment she exits camouflage; Lesley can't kite her away |
+| Irithel | Her S1 reveals Lesley's camouflage and her S2 slow forces Lesley to waste S2 on escape instead of damage |
+| Moskov | His S1 shield absorbs Lesley's burst; his S2 range lets him trade from safety |
+
+#### Key Takeaway for MM vs. MM
+
+Lesley's fundamental weakness in lane is that **she must close distance to be effective**, while most other MMs have long-range basic attacks or skills. The rule of thumb:
+
+- **Lesley wins** when the enemy MM has **no CC, no mobility, and no range advantage** (Claude, Bruno, Granger).
+- **Lesley loses** when the enemy MM has **slow/silence/CC** (Melissa, Beatrix, Brody) or **out-ranges her** (Clint, Moskov, Popol and Kupa).
+
+In a mirror or close-range MM matchup, Lesley's true damage passive gives her the edge — but the moment the enemy MM can **interrupt her combo** or **out-range her poke**, Lesley becomes a liability.
+
+---
+
+### Positioning Tips by Matchup
+
+- **Vs. Tanks**: Don't waste S1 in lane. Save it for team fights where you can one-shot the backline after the tank engages.
+- **Vs. CC-heavy MMs (Melissa, Beatrix)**: Never use S1 first — use S2 to reposition *after* they commit, then S1 to escape.
+- **Vs. Range MMs (Clint, Moskov)**: Don't force trades. Use S1 to farm from a safe angle and wait for your jungler to pressure.
+
