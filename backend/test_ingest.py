@@ -39,6 +39,27 @@ sentence_transformer_ef = embedding_functions.SentenceTransformerEmbeddingFuncti
     model_name="all-mpnet-base-v2"
 )
 
+def process_and_store_document(text: str, filename: str, user_id: int):
+    sections = split_into_sections(text)  # reuse your existing function
+
+    chunks = []
+    metadatas = []
+    for header, content in sections:
+        if not content:
+            continue
+        for c in chunk_text(content):  # reuse your existing function
+            chunks.append(f"{header}: {c}")
+            metadatas.append({
+                "source": filename,
+                "section": header,
+                "user_id": user_id
+            })
+
+    ids = [f"user{user_id}_{filename}_chunk_{i}" for i in range(len(chunks))]
+
+    rag_collection.add(documents=chunks, metadatas=metadatas, ids=ids)
+    return len(chunks)
+
 collection = client.get_or_create_collection(
     name="paquito_guide_mpnet",
     embedding_function=sentence_transformer_ef

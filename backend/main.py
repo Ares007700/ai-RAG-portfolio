@@ -34,7 +34,8 @@ from fastapi.responses import StreamingResponse
 import chromadb
 from chromadb.utils import embedding_functions
 from pathlib import Path
-
+from fastapi import UploadFile, File
+import re
 
 Base.metadata.create_all(bind=engine)  # creates the table if it doesn't exist
 
@@ -221,6 +222,76 @@ rag_collection = rag_client.get_or_create_collection(
     embedding_function=sentence_transformer_ef
 )
 
+def split_into_sections(text):
+    """Split text into (header, content) pairs based on short standalone lines."""
+    lines = text.split("\n")
+    sections = []
+    current_header = "Introduction"
+    current_lines = []
+
+    for line in lines:
+        stripped = line.strip()
+        is_header = (
+            0 < len(stripped) < 40
+            and not stripped.endswith((".", "!", "?", ",", ":"))
+            and not stripped.startswith(("-", "*"))
+        )
+        if is_header:
+            if current_lines:
+                sections.append((current_header, " ".join(current_lines).strip()))
+            current_header = stripped
+            current_lines = []
+        else:
+            if stripped:
+                current_lines.append(stripped)
+
+    if current_lines:
+        sections.append((current_header, " ".join(current_lines).strip()))
+
+    return sections
+
+
+def chunk_text(text, chunk_size=600, overlap_sentences=1):
+    sentences = re.split(r'(?<=[.!?])\s+', text)
+    result_chunks = []
+    current_chunk = []
+    current_length = 0
+
+    for sentence in sentences:
+        if current_length + len(sentence) > chunk_size and current_chunk:
+            result_chunks.append(" ".join(current_chunk))
+            current_chunk = current_chunk[-overlap_sentences:]
+            current_length = sum(len(s) for s in current_chunk)
+        current_chunk.append(sentence)
+        current_length += len(sentence)
+
+    if current_chunk:
+        result_chunks.append(" ".join(current_chunk))
+
+    return result_chunks
+
+
+def process_and_store_document(text: str, filename: str, user_id: int):
+    sections = split_into_sections(text)
+
+    chunks = []
+    metadatas = []
+    for header, content in sections:
+        if not content:
+            continue
+        for c in chunk_text(content):
+            chunks.append(f"{header}: {c}")
+            metadatas.append({
+                "source": filename,
+                "section": header,
+                "user_id": user_id
+            })
+
+    ids = [f"user{user_id}_{filename}_chunk_{i}" for i in range(len(chunks))]
+
+    rag_collection.add(documents=chunks, metadatas=metadatas, ids=ids)
+    return len(chunks)
+
 client = OpenAI(    #it will create an OpenAI client instance that will be used to send requests to the OpenRouter API. The client will use the OPENROUTER_API_KEY environment variable to authenticate the requests, and it will use the base_url parameter to specify the base URL of the OpenRouter API.
     api_key=OPENROUTER_API_KEY,
     base_url=OPENROUTER_URL,
@@ -270,7 +341,8 @@ def chat(
      # 3.5. NEW — retrieve relevant chunks for the user's latest question
     retrieved = rag_collection.query(
         query_texts=[payload.message],
-        n_results=3
+        n_results=3,
+        where={"user_id": current_user.id}
     )
     context_chunks = retrieved["documents"][0]
     context_text = "\n\n".join(context_chunks)
@@ -366,6 +438,25 @@ def get_conversation_messages(
     ).order_by(models.Message.id).all()
 
     return [{"role": m.role, "content": m.content} for m in messages]
+
+@app.post("/ingest")
+async def ingest_document(
+    file: UploadFile = File(...),
+    current_user: models.User = Depends(get_current_user)
+):
+    if not file.filename.endswith(".txt"):
+        return {"error": "Only .txt files are supported right now"}
+
+    contents = await file.read()
+    text = contents.decode("utf-8")
+
+    chunks_added = process_and_store_document(text, file.filename, current_user.id)
+
+    return {
+        "filename": file.filename,
+        "chunks_added": chunks_added,
+        "user_id": current_user.id
+    }
 
 
 

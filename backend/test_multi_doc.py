@@ -13,7 +13,7 @@ def split_into_sections(text): #this function will split the text into sections 
     current_lines = []
 
     for line in lines: #this loop will iterate through each line in the text and check if it is a header or not
-        stripped = line.strip()
+        stripped = line.strip()   #this line will remove any leading or trailing whitespace from the line
         is_header = (
             0 < len(stripped) < 40
             and not stripped.endswith((".", "!", "?", ",", ":"))
@@ -105,4 +105,4 @@ def test_query(query, n_results=4):
         print(f"{distance:.3f} — [{meta['source']} / {meta['section']}] {doc[:100]}...")
 
 test_query("How should I play Paquito in the late game?")
-test_query("Tell me about the Lesley combos")  # adjust wording to fit your 2nd hero
+test_query("Tell me about the Lesley combos")  
